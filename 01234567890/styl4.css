@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#baner,#stopka{
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+
+#container{
+    display: flex;
+}
+
+#prawy,#lewy{
+    background-color: #FFA4A2;
+    height: 650px;
+    width: 50%;
+}
+
+#prawy{
+    order: 1;
+}
+#lewy{
+    order: 2;
+}
+
+
+#sub-button{
+    background-color: #AF4448;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+h4{
+    margin: 0px;
+}

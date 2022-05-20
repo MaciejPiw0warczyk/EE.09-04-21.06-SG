@@ -21,7 +21,7 @@
             <h4>Podaj ID użytkownika</h4>
             <form action="users.php" method="POST">
                 <input type="number" name="id" id="">
-                <input type="submit" value="zobacz">
+                <input type="submit" value="zobacz" id="sub-button">
             </form>
             <hl>
             <?php
