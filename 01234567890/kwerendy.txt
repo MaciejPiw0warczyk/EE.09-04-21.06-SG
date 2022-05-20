@@ -1,0 +1,7 @@
+SELECT `id`,`imie`,`nazwisko`,`rok_urodzenia`,`zdjecie` FROM osoby LIMIT 30;
+
+SELECT `imie`,`nazwisko`,`rok_urodzenia`,`opis`,`zdjecie`, hobby.nazwa FROM osoby JOIN hobby ON osoby.Hobby_id=hobby.id WHERE osoby.id=10;
+
+SELECT AVG(`rok_urodzenia`), MIN(rok_urodzenia), MAX(rok_urodzenia) FROM osoby;
+
+UPDATE `osoby` SET `opis`='nauka' WHERE Hobby_id=4;
